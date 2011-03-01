@@ -1,4 +1,4 @@
-require 'actionview/template'
+require 'action_view/template'
 require 'rjson/string'
 
 module RJSON

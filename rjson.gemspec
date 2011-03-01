@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jan De Poorter"]
   s.date = %q{2011-03-01}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Template Handler for JSON}
   s.email = %q{jan@sumocoders.be}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -24,7 +24,8 @@ Gem::Specification.new do |s|
     "lib/rjson.rb",
     "lib/rjson/handler.rb",
     "lib/rjson/railtie.rb",
-    "lib/rjson/string.rb"
+    "lib/rjson/string.rb",
+    "rjson.gemspec"
   ]
   s.homepage = %q{http://github.com/DefV/rjson}
   s.licenses = ["MIT"]

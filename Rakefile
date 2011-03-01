@@ -6,7 +6,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/DefV/rjson"
   gem.license = "MIT"
   gem.summary = %Q{Template Handler for JSON}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.description = %Q{Template Handler for JSON}
   gem.email = "jan@sumocoders.be"
   gem.authors = ["Jan De Poorter"]
   gem.add_runtime_dependency 'actionpack', '~> 3.0.0'

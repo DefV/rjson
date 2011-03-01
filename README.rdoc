@@ -1,0 +1,39 @@
+= rjson
+
+RJSON is a template handler to create JSON views. RJSON expects views to return Ruby objects, and will then call to_json on it.
+
+== Example
+  # show.json.rjson
+  {
+    :id => @item.id,
+    :name => @item.name
+  }
+  
+=== RJSON Partials
+
+RJSON also has special support for RJSON partials, so it shouldn't be a problem to do the following:
+
+  # items/index.json.rjson
+  # We're doing map because we need to return an array of rendered items
+  @items.map do |item|
+    render item
+  end
+  
+  # items/_item.json.rjson
+  {
+    :id => @item.id,
+    :name => @item.name
+  }
+  
+=== Regular partials
+Regular erb partials will just render as string, as expected
+
+=== Installation
+RJSON is a gem, so you can just include it in your Gemfile, and you can start using rjson templates in your app.
+
+  gem 'rjson'
+
+== Copyright
+
+Copyright (c) 2011 Jan De Poorter. See LICENSE.txt for
+further details.

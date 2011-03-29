@@ -9,7 +9,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{Template Handler for JSON}
   gem.email = "jan@sumocoders.be"
   gem.authors = ["Jan De Poorter"]
-  gem.add_runtime_dependency 'actionpack', '~> 3.0.0'
+  gem.add_runtime_dependency 'actionpack', ['~> 3.0.0', '~> 3.1.0']
 end
 Jeweler::RubygemsDotOrgTasks.new
 

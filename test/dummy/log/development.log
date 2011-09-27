@@ -1,0 +1,16 @@
+
+
+Started GET "/client/1.json" for 127.0.0.1 at 2011-09-27 15:35:54 +0200
+
+ActionController::RoutingError (No route matches [GET] "/client/1.json"):
+  
+
+Rendered /Users/jan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (8.6ms)
+
+
+Started GET "/people/1.json" for 127.0.0.1 at 2011-09-27 15:36:01 +0200
+  Processing by PeopleController#show as JSON
+  Parameters: {"id"=>"1"}
+Rendered people/_person.json.rjson (0.5ms)
+Rendered people/show.json.rjson (8.9ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)

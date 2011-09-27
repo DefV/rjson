@@ -1,0 +1,106 @@
+
+
+Started GET "/people/Jan?method=json" for 127.0.0.1 at 2011-09-27 15:18:35 +0200
+  Processing by PeopleController#show as HTML
+  Parameters: {"method"=>"json", "id"=>"Jan"}
+Completed 500 Internal Server Error in 84ms
+
+
+Started GET "/people/Jan.json" for 127.0.0.1 at 2011-09-27 15:19:00 +0200
+  Processing by PeopleController#show as JSON
+  Parameters: {"id"=>"Jan"}
+Rendered people/show.json.rjson (24.6ms)
+Completed 500 Internal Server Error in 101ms
+
+
+Started GET "/people/Jan.json" for 127.0.0.1 at 2011-09-27 15:19:38 +0200
+  Processing by PeopleController#show as JSON
+  Parameters: {"id"=>"Jan"}
+Rendered people/_person.json.rjson (0.5ms)
+Rendered people/show.json.rjson (9.0ms)
+Completed 200 OK in 93ms (Views: 92.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/people/Jan.json" for 127.0.0.1 at 2011-09-27 15:23:46 +0200
+  Processing by PeopleController#show as JSON
+  Parameters: {"id"=>"Jan"}
+Rendered people/_person.json.rjson (0.3ms)
+Rendered people/show.json.rjson (7.7ms)
+Completed 200 OK in 74ms (Views: 73.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/people/Jan.json" for 127.0.0.1 at 2011-09-27 15:24:16 +0200
+  Processing by PeopleController#show as JSON
+  Parameters: {"id"=>"Jan"}
+Rendered people/_person.json.rjson (0.6ms)
+Rendered people/show.json.rjson (12.3ms)
+Completed 200 OK in 86ms (Views: 84.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/people/Jan.json" for 127.0.0.1 at 2011-09-27 15:24:48 +0200
+  Processing by PeopleController#show as JSON
+  Parameters: {"id"=>"Jan"}
+Rendered people/_person.json.rjson (0.4ms)
+Rendered people/show.json.rjson (7.6ms)
+Completed 200 OK in 74ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/people/Jan.json" for 127.0.0.1 at 2011-09-27 15:25:08 +0200
+  Processing by PeopleController#show as JSON
+  Parameters: {"id"=>"Jan"}
+Completed 500 Internal Server Error in 0ms
+
+
+Started GET "/people/Jan.json" for 127.0.0.1 at 2011-09-27 15:27:24 +0200
+  Processing by PeopleController#show as JSON
+  Parameters: {"id"=>"Jan"}
+Rendered people/show.json.rjson (0.3ms)
+Completed 200 OK in 65ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/people/Jan.json" for 127.0.0.1 at 2011-09-27 15:27:51 +0200
+  Processing by PeopleController#show as JSON
+  Parameters: {"id"=>"Jan"}
+Rendered people/show.json.rjson (0.4ms)
+Completed 200 OK in 67ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/people/Jan.json" for 127.0.0.1 at 2011-09-27 15:34:46 +0200
+  Processing by PeopleController#show as JSON
+  Parameters: {"id"=>"Jan"}
+Rendered people/_person.json.rjson (0.3ms)
+Rendered people/show.json.rjson (24.7ms)
+Completed 500 Internal Server Error in 96ms
+
+
+Started GET "/people/Jan.json" for 127.0.0.1 at 2011-09-27 15:34:59 +0200
+  Processing by PeopleController#show as JSON
+  Parameters: {"id"=>"Jan"}
+Rendered people/_person.json.rjson (0.4ms)
+Rendered people/show.json.rjson (8.2ms)
+Completed 200 OK in 75ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/people/Jan.json" for 127.0.0.1 at 2011-09-27 15:45:52 +0200
+  Processing by PeopleController#show as JSON
+  Parameters: {"id"=>"Jan"}
+Rendered people/_person.json.rjson (0.3ms)
+Rendered people/show.json.rjson (7.6ms)
+Completed 200 OK in 73ms (Views: 72.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/people/Jan.json" for 127.0.0.1 at 2011-09-27 15:47:23 +0200
+  Processing by PeopleController#show as JSON
+  Parameters: {"id"=>"Jan"}
+Rendered people/_person.json.rjson (0.6ms)
+Rendered people/show.json.rjson (9.6ms)
+Completed 200 OK in 83ms (Views: 82.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/people.json" for 127.0.0.1 at 2011-09-27 15:47:24 +0200
+  Processing by PeopleController#index as JSON
+Rendered people/_person.json.rjson (0.1ms)
+Rendered people/_person.json.rjson (0.1ms)
+Rendered people/_person.json.rjson (0.1ms)
+Rendered people/index.json.rjson (1.0ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)

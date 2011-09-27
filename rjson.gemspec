@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "rjson"
-  s.version = "0.1.3"
+  s.version = "0.1.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jan De Poorter"]
@@ -17,6 +17,8 @@ Gem::Specification.new do |s|
     "README.rdoc"
   ]
   s.files = [
+    "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
@@ -25,7 +27,48 @@ Gem::Specification.new do |s|
     "lib/rjson/handler.rb",
     "lib/rjson/railtie.rb",
     "lib/rjson/string.rb",
-    "rjson.gemspec"
+    "rjson.gemspec",
+    "test/dummy/Rakefile",
+    "test/dummy/app/assets/javascripts/application.js",
+    "test/dummy/app/assets/stylesheets/application.css",
+    "test/dummy/app/controllers/application_controller.rb",
+    "test/dummy/app/controllers/people_controller.rb",
+    "test/dummy/app/helpers/application_helper.rb",
+    "test/dummy/app/mailers/.gitkeep",
+    "test/dummy/app/models/.gitkeep",
+    "test/dummy/app/views/layouts/application.html.erb",
+    "test/dummy/app/views/people/_person.json.rjson",
+    "test/dummy/app/views/people/index.json.rjson",
+    "test/dummy/app/views/people/show.json.rjson",
+    "test/dummy/config.ru",
+    "test/dummy/config/application.rb",
+    "test/dummy/config/boot.rb",
+    "test/dummy/config/database.yml",
+    "test/dummy/config/environment.rb",
+    "test/dummy/config/environments/development.rb",
+    "test/dummy/config/environments/production.rb",
+    "test/dummy/config/environments/test.rb",
+    "test/dummy/config/initializers/backtrace_silencers.rb",
+    "test/dummy/config/initializers/inflections.rb",
+    "test/dummy/config/initializers/mime_types.rb",
+    "test/dummy/config/initializers/secret_token.rb",
+    "test/dummy/config/initializers/session_store.rb",
+    "test/dummy/config/initializers/wrap_parameters.rb",
+    "test/dummy/config/locales/en.yml",
+    "test/dummy/config/routes.rb",
+    "test/dummy/db/development.sqlite3",
+    "test/dummy/db/test.sqlite3",
+    "test/dummy/lib/assets/.gitkeep",
+    "test/dummy/log/.gitkeep",
+    "test/dummy/log/development.log",
+    "test/dummy/log/test.log",
+    "test/dummy/public/404.html",
+    "test/dummy/public/422.html",
+    "test/dummy/public/500.html",
+    "test/dummy/public/favicon.ico",
+    "test/dummy/script/rails",
+    "test/rjson_test.rb",
+    "test/test_helper.rb"
   ]
   s.homepage = "http://github.com/DefV/rjson"
   s.licenses = ["MIT"]
@@ -40,12 +83,16 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<jeweler>, [">= 0"])
       s.add_runtime_dependency(%q<rjson>, [">= 0"])
       s.add_development_dependency(%q<capybara>, [">= 0"])
+      s.add_development_dependency(%q<sqlite3>, [">= 0"])
+      s.add_development_dependency(%q<capybara>, [">= 0"])
       s.add_runtime_dependency(%q<rails>, ["< 3.2.0", "> 3.0.0"])
       s.add_development_dependency(%q<sqlite3>, [">= 0"])
       s.add_development_dependency(%q<capybara>, [">= 0"])
     else
       s.add_dependency(%q<jeweler>, [">= 0"])
       s.add_dependency(%q<rjson>, [">= 0"])
+      s.add_dependency(%q<capybara>, [">= 0"])
+      s.add_dependency(%q<sqlite3>, [">= 0"])
       s.add_dependency(%q<capybara>, [">= 0"])
       s.add_dependency(%q<rails>, ["< 3.2.0", "> 3.0.0"])
       s.add_dependency(%q<sqlite3>, [">= 0"])
@@ -54,6 +101,8 @@ Gem::Specification.new do |s|
   else
     s.add_dependency(%q<jeweler>, [">= 0"])
     s.add_dependency(%q<rjson>, [">= 0"])
+    s.add_dependency(%q<capybara>, [">= 0"])
+    s.add_dependency(%q<sqlite3>, [">= 0"])
     s.add_dependency(%q<capybara>, [">= 0"])
     s.add_dependency(%q<rails>, ["< 3.2.0", "> 3.0.0"])
     s.add_dependency(%q<sqlite3>, [">= 0"])

@@ -15,7 +15,7 @@ Jeweler::Tasks.new do |gem|
   gem.email = "jan@sumocoders.be"
   gem.authors = ["Jan De Poorter"]
 
-  gem.add_runtime_dependency 'rails', ['> 3.0.0', '< 3.2.0']
+  gem.add_runtime_dependency 'rails', ['> 3.0.0']
 
   gem.add_development_dependency "sqlite3"
   gem.add_development_dependency "capybara"

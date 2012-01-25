@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "rjson"
-  s.version = "0.1.4"
+  s.version = "0.1.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jan De Poorter"]
-  s.date = "2011-09-27"
+  s.date = "2012-01-25"
   s.description = "Template Handler for JSON"
   s.email = "jan@sumocoders.be"
   s.extra_rdoc_files = [
@@ -73,7 +73,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/DefV/rjson"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.10"
+  s.rubygems_version = "1.8.15"
   s.summary = "Template Handler for JSON"
 
   if s.respond_to? :specification_version then
@@ -87,7 +87,9 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<capybara>, [">= 0"])
       s.add_development_dependency(%q<sqlite3>, [">= 0"])
       s.add_development_dependency(%q<capybara>, [">= 0"])
-      s.add_runtime_dependency(%q<rails>, ["< 3.2.0", "> 3.0.0"])
+      s.add_development_dependency(%q<sqlite3>, [">= 0"])
+      s.add_development_dependency(%q<capybara>, [">= 0"])
+      s.add_runtime_dependency(%q<rails>, ["> 3.0.0"])
       s.add_development_dependency(%q<sqlite3>, [">= 0"])
       s.add_development_dependency(%q<capybara>, [">= 0"])
     else
@@ -98,7 +100,9 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<capybara>, [">= 0"])
       s.add_dependency(%q<sqlite3>, [">= 0"])
       s.add_dependency(%q<capybara>, [">= 0"])
-      s.add_dependency(%q<rails>, ["< 3.2.0", "> 3.0.0"])
+      s.add_dependency(%q<sqlite3>, [">= 0"])
+      s.add_dependency(%q<capybara>, [">= 0"])
+      s.add_dependency(%q<rails>, ["> 3.0.0"])
       s.add_dependency(%q<sqlite3>, [">= 0"])
       s.add_dependency(%q<capybara>, [">= 0"])
     end
@@ -110,7 +114,9 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<capybara>, [">= 0"])
     s.add_dependency(%q<sqlite3>, [">= 0"])
     s.add_dependency(%q<capybara>, [">= 0"])
-    s.add_dependency(%q<rails>, ["< 3.2.0", "> 3.0.0"])
+    s.add_dependency(%q<sqlite3>, [">= 0"])
+    s.add_dependency(%q<capybara>, [">= 0"])
+    s.add_dependency(%q<rails>, ["> 3.0.0"])
     s.add_dependency(%q<sqlite3>, [">= 0"])
     s.add_dependency(%q<capybara>, [">= 0"])
   end
